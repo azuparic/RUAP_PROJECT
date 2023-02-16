@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.bg {
+  position: fixed;
+  background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/10/website-background-texture-01-920x518.jpg");
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+input{
+  border-color: black;
+  border-radius: 5px;
+}
+
+.text_01{
+  font-size: 40px;
+}
+
+.text_00{
+  font-size: 50px;
+}
+
+.resultBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topResults{
+  margin-left: 100px;
+}
+
+.topTitle{
+  font-size: 60px;
+}
+
+.top5{
+  font-size: 30px;
+}

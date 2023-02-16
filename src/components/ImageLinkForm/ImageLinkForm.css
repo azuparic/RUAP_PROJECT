@@ -1,0 +1,17 @@
+input[type=text] {
+  padding: 12px 20px;
+  width: 30vw;
+  margin: 8px 0;
+  margin-right: 40px;
+  box-sizing: border-box;
+}
+
+.dbox {
+  display:inline-block;
+  width: 50vw;
+}
+
+.btnForm{
+  height: 40px;
+  width: 80px;
+}
