@@ -27,13 +27,13 @@ class App extends Component {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Prediction-Key": "f0cd698630434b328c06a4afb7ca7425",
-        "Ocp-Apim-Subscription-Key": "74116e3f-03cc-4d9a-9688-b6b282a6b7f7",
+        "Prediction-Key": "87e04fe8259641db8fdb31b02774cb9e",
+        "Ocp-Apim-Subscription-Key": "0a58634f-e883-4d1a-85b7-772a7fce5aef",
       },
       body: JSON.stringify(data),
     };
     fetch(
-      "https://customvisionasl-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/f95a81dc-71ed-45c1-a0f6-00f77762ddc2/classify/iterations/asl_model02/url",
+      "https://ruapproject-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/f143ad69-b4a2-4ec1-8838-9c782e071f9e/classify/iterations/8hours/url",
       requestOptions
     )
       .then((response) => response.json())
